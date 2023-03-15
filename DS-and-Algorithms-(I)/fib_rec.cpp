@@ -1,5 +1,5 @@
 /*
-   This is a fibonaccia sequence by iteration which run faster than reccursion
+   This is a fibonaccia sequence by reccursion.
 
    by Bruce Geng
 */
@@ -8,26 +8,20 @@
 using namespace std; 
 
 
-// fibonacci function using dynamic programming
+// Reccusion, easy to make but run slowly
 int fib(int n){
-   int f = 0, g = 1;
-   while (0 < n--){
-   	g = g + f;
-   	f = g - f;
-   }
-   return g;
+
+	return (2 > n)? n: fib(n - 1) + fib(n - 2);
 }
 
-// print fibinacci sequences
 void print_fib(int n){
 	for (int i = 0; i < n; i++){
 		cout << "fib(" << i <<") = " << fib(i) << endl;
 	}
 }
-
-
 int main(){
 	int n = 10;
+
 	print_fib(n);
 	return 0;
 }
