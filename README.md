@@ -1,6 +1,6 @@
 # Data-Structure-and-Algorithms
 
-   This repo consists of the Coursera Specialization - [Data Structure and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms-tsinghua), which is available on Coursera offered by Tsinghua University.
+   This repo consists of ``Coursera Specialization``: [Data Structure and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms-tsinghua), which is available on Coursera offered by Tsinghua University.
    
    This specialization contains four courses, including
    
